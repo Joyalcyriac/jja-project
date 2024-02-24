@@ -1,0 +1,58 @@
+.background2 {
+    /* Add the linear gradient with black color and low opacity */
+    background-image: url('https://wallpapercave.com/wp/wp5351194.jpg');
+   
+    background: #42275a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homehead{
+    @supports (background-clip: text) or (-webkit-background-clip: text) {
+        background-image: 
+          url("https://img.freepik.com/free-vector/abstract-background-with-gradient-shapes_23-2148246174.jpg");
+        background-size: 110% auto;
+        background-position: center;
+        color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
+
+
+
+    font-family: 'Jost', sans-serif;
+        font-size: 325%;;
+  
+    margin-bottom: 15%;
+}
+
+.getstarted {
+    text-decoration: none;
+    background-image: linear-gradient( 108.7deg,  rgb(173, 82, 154) 11%, rgb(99, 47, 145) 88.2% );
+    /* You can customize the button color */
+    color: #ffffff;
+    /* You can customize the text color */
+    padding: 15px 30px;
+    /* Adjust padding as needed */
+    font-size: 150%;
+    /* Adjust font size as needed */
+    border-radius: 10px;
+    /* Add border-radius for a rounded button appearance */
+    transition: background-color 0.3s;
+    margin-top: 60px;
+
+    /* Adjust margin to separate the button from the heading */
+}
+
+.getstarted:hover {
+    background-color: #2980b9;
+    font-family: 'Jost', sans-serif;
+    /* You can customize the button color on hover */
+}

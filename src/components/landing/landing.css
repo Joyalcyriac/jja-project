@@ -1,0 +1,64 @@
+.cards{
+    
+    
+        /* fallback for old browsers */
+        background: #30cfd0;
+      
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgba(190, 248, 248, 0.5), rgba(65, 30, 109, 0.055));
+      
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgba(176, 212, 212, 0.5), rgba(51, 8, 103, 0.199))
+      
+}
+
+.back{
+    color:rgb(255, 255, 255);
+
+      /* fallback for old browsers */
+      background: #30cfd0;
+      
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: -webkit-linear-gradient(to right, rgba(48,207,208,0.5), rgba(51,8,103,0.5));
+    
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: linear-gradient(to right, rgba(48,207,208,0.5), rgba(51,8,103,0.5));
+
+
+    height: 250px;
+    text-align: left;
+    margin-top: px;
+    font-family: 'Bebas Neue', sans-serif;
+  
+}
+
+.back h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 250%;
+    color:rgb(255, 255, 255);
+  
+}
+
+.back p{
+ 
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 110%;
+    color:beige;
+  
+}
+
+.contact {
+    text-transform: uppercase;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    color: #110336;
+    border-radius: 50px;
+    padding: 1em;
+    background: rgb(149, 189, 241);
+    border: none;
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  
